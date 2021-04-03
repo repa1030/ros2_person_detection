@@ -1,0 +1,10 @@
+cognex_driver:
+    ros__parameters:
+        frequency: 10.0                 # Node frequency [Hz]
+        image_topic: "/cognex/image"    # Publish topic for the camera image
+        telnet_port: 23                 # Cognex Telnet port
+        cognex_ip: "192.168.0.1"        # Cognex IP
+        cognex_user: "admin"            # Cognex user name
+        cognex_password: ""             # Cognex password
+        cognex_file_name: "image.jpg"   # Cognex file name
+        image_resolution: 1.0           # Image resolution [0, 1]

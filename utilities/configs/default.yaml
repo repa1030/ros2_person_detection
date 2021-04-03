@@ -1,0 +1,7 @@
+image_publisher:
+    ros__parameters:
+        frequency: 10.0                 # Node frequency [Hz]
+        image_topic: "/test/image"      # Topic for the images
+        image_resolution: 1.0           # Resize of original images [0, 1]
+        data_type: "video"              # Type of the test data {"image", "video"}
+        test_data: "/home/ros2/test/"   # absolute path to directory with test data

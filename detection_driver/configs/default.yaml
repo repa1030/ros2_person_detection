@@ -1,0 +1,12 @@
+detection_driver:
+    ros__parameters:
+        frequency: 10.0                 # Node frequency [Hz]
+        image_topic: "/cognex/image"    # Subscribe topic for the raw image
+        det_topic: "/detection/image"   # Publish topic for the detection visualization
+        flag_topic: "/detection/flag"   # Publish topic for the deteciton flag
+        detection_threshold: 0.7        # Threshold of valid person detection [0, 1]
+        visualize_detection: True       # Output image with bounding boxes {True, False}
+        detector: "D2"                  # MN -> MobileNet is used, D2 -> Detectron2 is used
+        mn_model_path: "models/mobile_net/model.pb"                             # only MobileNet
+        d2_model_path: "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"   # only Detectron2, compatible Models: detection_driver/models/detectron2/configs/
+        device: "cpu"                   # Device for inference {"cpu", "gpu"} (only Detectron2)
