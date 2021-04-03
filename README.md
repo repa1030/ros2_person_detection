@@ -10,7 +10,6 @@ The available detectors are
 *__Notice:__ For the online person detection a cognex camera is required but it is also possible to use the detection part on offline images and videos.*
 
 ## Requirements ##
----
 
 Ubuntu 20.04, Python 3.8+  
 Please make sure that you have installed all the required components before building the project.
@@ -40,7 +39,6 @@ and replace the distribution with "foxy". If you can't see the file ".bashrc" in
 
 
 ## Setting up the Project ##
----
 
 1. Create new development workspace  
 `mkdir -p ~/dev_ws/src`
@@ -69,7 +67,6 @@ and replace the distribution with "foxy". If you can't see the file ".bashrc" in
 
 
 ## How to Run the Project ##
----
 
 1. Check the configurations inside the packages  
 `package_name -> configs`
@@ -98,7 +95,6 @@ and replace the distribution with "foxy". If you can't see the file ".bashrc" in
 
 
 ## Trouble Shooting ##
----
 
 * If there are errors about missing modules like cv_bridge or similar. Make sure that you installed the ros-foxy-desktop and not the ros-foxy-base.
 * If there are errors about missing modules of the detetction_driver you might have forgot the venv parameter at the launch command.
