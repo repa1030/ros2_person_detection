@@ -47,7 +47,7 @@ and replace the distribution with "foxy". If you can't see the file ".bashrc" in
 3. Clone the repository  
 `git clone <link_to_repo>`
 4. Go to models  
-`cd ros2_human_detection/detection_driver/models/`
+`cd ros2_person_detection/detection_driver/models/`
 5. Create a virtual environment  
 `python3 -m venv ~/venv`
 6. Enter the virtual environment  
