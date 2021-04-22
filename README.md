@@ -88,10 +88,10 @@ and replace the distribution with "foxy". If you can't see the file ".bashrc" in
 
     Programm                 | Requirements                                                                                               | Command
     ---                      | ---                                                                                                        | ---
-    Person Detection         | Connected Cognex camera, Check the config file person_detection/configs/default.yaml, Rebuild if necessary | `ros2 launch person_detection person_detection.launch.py venv:=/path/to/venv/bin/python`
-    Person Detection Testing | No Cognex is required, Set the test_data parameter in person_detection/configs/test.yaml, Rebuild          | `ros2 launch person_detection person_detection_test.launch.py venv:=/path/to/venv/bin/python`
-    Cognex Camera Driver     | Connected Cognex camera, Check the config file cognex_driver/configs/default.yaml, Rebuild if necessary    | `ros2 launch cognex_driver cognex_driver.launch.py venv:=/path/to/venv/bin/python`
-    Detection Driver         | No Cognex required, Check the config file cognex_driver/configs/default.yaml, Rebuild if necessary         | `ros2 launch detection_driver detection_driver.launch.py venv:=/path/to/venv/bin/python`
+    Person Detection         | Connected Cognex camera, Check the config file `person_detection/configs/default.yaml`, Rebuild if necessary | `ros2 launch person_detection person_detection.launch.py venv:=/path/to/venv/bin/python`
+    Person Detection Testing | No Cognex is required, Set the test_data parameter in `person_detection/configs/test.yaml`, Rebuild          | `ros2 launch person_detection person_detection_test.launch.py venv:=/path/to/venv/bin/python`
+    Cognex Camera Driver     | Connected Cognex camera, Check the config file `cognex_driver/configs/default.yaml`, Rebuild if necessary    | `ros2 launch cognex_driver cognex_driver.launch.py venv:=/path/to/venv/bin/python`
+    Detection Driver         | No Cognex required, Check the config file `detection_driver/configs/default.yaml`, Rebuild if necessary         | `ros2 launch detection_driver detection_driver.launch.py venv:=/path/to/venv/bin/python`
 
 
 ## Trouble Shooting ##
